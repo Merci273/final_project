@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Blockchain</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Blockchain-Based Supply Chain System</h1>
+
+    <h2>Upload Transaction File</h2>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file-input" accept=".json" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Blockchain Operations</h2>
+    <button onclick="mineBlock()">Mine Block</button>
+    <button onclick="viewChain()">View Blockchain</button>
+
+    <div id="chain-output"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

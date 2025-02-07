@@ -1,0 +1,37 @@
+[
+    {
+        "sender": "Supplier A",
+        "receiver": "Manufacturer X",
+        "product": "Raw Materials",
+        "quantity": 500,
+        "price": 10000
+    },
+    {
+        "sender": "Manufacturer X",
+        "receiver": "Distributor Y",
+        "product": "Processed Goods",
+        "quantity": 400,
+        "price": 20000
+    },
+    {
+        "sender": "Distributor Y",
+        "receiver": "Retailer Z",
+        "product": "Final Products",
+        "quantity": 350,
+        "price": 30000
+    },
+    {
+        "sender": "Retailer Z",
+        "receiver": "Customer 1",
+        "product": "Electronics",
+        "quantity": 1,
+        "price": 1200
+    },
+    {
+        "sender": "Retailer Z",
+        "receiver": "Customer 2",
+        "product": "Furniture",
+        "quantity": 2,
+        "price": 5000
+    }
+]

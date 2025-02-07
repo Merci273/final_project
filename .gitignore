@@ -1,0 +1,6 @@
+# Ignore Python virtual environment folders
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
